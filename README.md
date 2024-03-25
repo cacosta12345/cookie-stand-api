@@ -1,24 +1,27 @@
-# api-quick-start
+# Lab 41
 
-Template Project for starting up CRUD API with Django Rest Framework
+## Project: Putting all together
 
-## Customization Steps
+## Author: Chris Acosta
 
-- DO NOT migrate yet
-- add additional dependencies as needed
-  - Re-export requirements.txt as needed
-- change `things` folder to the app name of your choice
-- Search through entire code base for `Thing`,`Things` and `things` to modify code to use your resource
-  - `project/settings.py`
-  - `project/urls.py`
-  - App's files
-    - `views.py`
-    - `urls.py`
-    - `admin.py`
-    - `serializers.py`
-    - `permissions.py`
-- Update ThingModel with fields you need
-  - Make sure to update other modules that would be affected by Model customizations. E.g. serializers, tests, etc.
-- Rename `project/.env.sample` to `.env` and update as needed
-- Run makemigrations and migrate commands
-- Optional: Update `api_tester.py`
+## Links and Resources
+
+  * [Rest Framework](https://www.django-rest-framework.org/)
+
+  * [Vercel](https://vercel.com/docs/cli)
+
+## Setup
+
+install/activate the virtual environment:
+
+python3 -m venv .venv
+
+source .venv/Scripts/activate
+
+Install requirements:
+
+pip install -r requirements.txt
+
+## Deployment
+
+Vercel url: https://cookie-stand-api-chris-acosta.vercel.app/
